@@ -1,0 +1,12 @@
+memorization recipe
+
+1-make it work
+-visualize the problem as a tree to figure it out the logic
+-implement the tree using recursion
+-test it
+
+
+2-make it efficient
+-add a memo object
+-add a base case to return values
+-store return values into the memo
