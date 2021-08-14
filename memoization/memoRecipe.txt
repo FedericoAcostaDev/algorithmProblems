@@ -10,3 +10,10 @@ memorization recipe
 -add a memo object
 -add a base case to return values
 -store return values into the memo
+
+
+can sum=> can you do it? |decision problem
+
+howSum=> how will you do it? |combinatoric problem
+
+bestSum=> what is the best way to do it? |optimization problem
