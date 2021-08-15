@@ -1,0 +1,16 @@
+---------data estructures => allow you to manage data-----------
+
+|Arrays: [i]
+|Objects: {name:'' age:num}
+|Maps: new Map() map.set('loc','germany')
+|Sets: new Set() set.add(1)
+
+--------diferent tasks require deferent data estructures---------
+
+|Ordered list of Data, Duplicates Allowed -------------|| Arrays
+|Unordered list of data, no duplicates wanted----------|| Sets
+
+|Key-value Pairs of Unordered Data---------------------|| Objects
+|Key-value Pairs of Ordered, iterable data-------------|| Maps
+
+Arrays iterable (you can use for - of loop)
