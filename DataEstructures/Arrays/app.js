@@ -90,6 +90,8 @@ console.log(resultData.greet('average')); //return value by key
 //types of data estructures
 
 //linked list
+//can be usefull if you do a lot of insertions at the beginning of lists
+//faster than arrays in this
 
 class linkedList {
     constructor() {
@@ -117,6 +119,21 @@ class linkedList {
         }
     }
 
+    delete(value) {
+        if (!this.head) { //to check if the list is not empty
+            return;
+        }
+        let curlNode = this.head;
+        while (curlNode.next) {
+            if (curlNode.next.value === value) {
+                curlNode.next = curlNode.next.next
+            }else {
+                curlNode = curlNode.next;
+            }
+
+        }
+    }
+
     //in order to see the result
     toArray() {
         const elements = [];
@@ -134,6 +151,13 @@ const linkedList1 = new linkedList();
 linkedList.append(1); //to call the data
 
 console.log(linkedList1.toArray()); //get an array with all the node with the next
+
+
+//Time complexity & big O Notation
+// used to compare clean algorithms
+
+
+
 
 
 
